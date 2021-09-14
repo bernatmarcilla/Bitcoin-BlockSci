@@ -1,4 +1,4 @@
-### 0. Setup 
+# 0. Setup 
 # Import libraries 
 import matplotlib.pyplot as plt
 import matplotlib.ticker
@@ -10,8 +10,8 @@ import numpy as np
 """ Initialize Blocksci """
 import blocksci
 
-# Create a Blockhain object
-# parser_data_directory should be set to the data-directory which the blocksci_parser output
+### Create a Blockhain object
+### parser_data_directory should be set to the data-directory which the blocksci_parser output
 parser_data_directory = "/home/ubuntu/data/blocksci.conf"
 chain = blocksci.Blockchain(parser_data_directory)
 

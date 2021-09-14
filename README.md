@@ -1,10 +1,10 @@
 # Bitcoin-BlockSci
 
 
-### 0. Setup 
+# 0. Setup 
 
-# Create a Blockhain object
-# parser_data_directory should be set to the data-directory which the blocksci_parser output
+### Create a Blockhain object
+### parser_data_directory should be set to the data-directory which the blocksci_parser output
 
 
 # 1. Basic stats
