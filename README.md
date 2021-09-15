@@ -11,7 +11,9 @@
 
 #### How many blocks are there in the blockchain? 
 CPU times: user 6 µs, sys: 7 µs, total: 13 µs
+
 Wall time: 15 µs
+
 653853
 
 #### What is the size of all serialized blocks in the blockchain? 
@@ -61,7 +63,7 @@ CPU times: user 11.1 s, sys: 0 ns, total: 11.1 s
 Wall time: 11.1 s
 There are 125287 blocks without paying any fees to the miner
 
-#### ### Is there any miner that did not collect his/her full reward (block reward + fees)?
+#### Is there any miner that did not collect his/her full reward (block reward + fees)?
 There are 1123 miners that did not collected the full reward. 
 
 ####  Is there any miner that did not even collect the block reward?
