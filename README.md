@@ -1,13 +1,18 @@
 # Bitcoin-BlockSci
+This project consists in working with the BlockSci Python implementation tool to extract and analyze data from the Bitcoin blockchain.
 
+The Bitcoin blockchain currently occupies more than 300GB of data. Both its size and the structure of this data make it difficult to analyze. Additionally, the file structure that Bitcoin Core uses to store the blockchain is not optimized for analysis.
 
-## 0. Setup 
+BlockSci is an open-source tool that allows you to quickly analyze the Bitcoin blockchain (among others), as the BlockSci architecture is designed to optimize the analysis of the chain.
 
-#### Create a Blockhain object
-#### parser_data_directory should be set to the data-directory which the blocksci_parser output
+## Setup 
 
+In order for the BlockSci library to be able to create the data structures based on the Bitcoin blockchain, it is necessary to parse the data from the Bitcoin Core blocks (the blkX.dat files) with the library.
+To do so, the code shows how to create a Blockchain object with the Blockchain() function, passing the parser_data_directory as a parameter, which should be set to the data-directory which the blocksci_parser output. 
 
-## 1. Basic stats
+## Some Bitcoin blockchain queries & answers 
+
+### 1. Basic stats 
 
 _How many blocks are there in the blockchain?_
 
@@ -28,7 +33,7 @@ _How many transactions are there in the first 100 blocks of the blockchain? And 
 *  There are 241676 transactions in the last 100 blocks of the blockchain. 
 
 
-## 2. Basic queries 
+### 2. Basic queries 
 
 _Which is the hash of the block with the most number of transactions?_ 
 
@@ -74,7 +79,7 @@ _Is there any miner that did not even collect the block reward?_
 
 * There are 3 miners that did not collected the block reward.
 
-## 3. Plots with block and transaction data 
+### 3. Plots with block and transaction data 
 
 _How many transactions per block are there?_
 
