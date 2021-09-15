@@ -17,11 +17,11 @@ _What is the size of all serialized blocks in the blockchain?_
 
 * 306258808815
 
- _How many transactions are there in the blockchain?_
+_How many transactions are there in the blockchain?_
 
 * 580137370
 
-⋅⋅* _How many transactions are there in the first 100 blocks of the blockchain? And in the last 100 blocks?_ 
+_How many transactions are there in the first 100 blocks of the blockchain? And in the last 100 blocks?_ 
 
 *  There are 100 transactions in the first 100 blocks of the blockchain. 
 
@@ -34,26 +34,29 @@ _Which is the hash of the block with the most number of transactions?_
 
 * The block with the most number of transactions is at height 367853 and has 12239 transactions
 
-- Block hash: 00000000000000001080e6de32add416cd6cda29f35ec9bce694fea4b964c7be
+    - Block hash: 00000000000000001080e6de32add416cd6cda29f35ec9bce694fea4b964c7be
 
 _Which is the transaction in block 123456 with the most value in outputs?_ 
+
 * The transaction with the most value in outputs (block 123456) is 0 and has 5005000000 satoshis
 
-- Tx hash: 5b75086dafeede555fc8f9a810d8b10df57c46f9f176ccc3dd8d2fa20edd685b
+    - Tx hash: 5b75086dafeede555fc8f9a810d8b10df57c46f9f176ccc3dd8d2fa20edd685b
 
 _Which is the hash of the transaction whose output is spent by the input of the second transaction of block 200000?_ 
+
 * The second transacion of block 200000 have 2 inputs.
 
 * The hashes of the transactions whose outputs are the spent by these inputs are: 
 
-- 7050b98c4215a00522ef90cfe13f45ddf2a4a199d348f377f56b0a47f5ee18e4
+    - 7050b98c4215a00522ef90cfe13f45ddf2a4a199d348f377f56b0a47f5ee18e4
 
-- c410d173abbb7b0e4057d016cf67c100d3514e66d446b137cb021d6987982bbb
+    - c410d173abbb7b0e4057d016cf67c100d3514e66d446b137cb021d6987982bbb
 
 _Which is the hash of the transaction whose input spends the second output of the second transaction of block 200000?_
+
 * The hash of the transaction whose input spends the second output of the second transaction of block 200000 is:
 
-- 1a40d11f1a8ac43c6e055549de0b323e4aa99dd7473b4aec85a7d4c044027807
+    - 1a40d11f1a8ac43c6e055549de0b323e4aa99dd7473b4aec85a7d4c044027807
 
 _How many blocks do not have any fees at all_
 
@@ -94,6 +97,7 @@ _What kind of scripts are used in blocks?_
 ![Scripts used](./plots/scripts.PNG "Scripts used")
 
 _What is the hash of the first transaction with a multisignature output?_
+
 * Block at height 164467 has the first multisig output
 
 * Transaction 60a20bd93aa49ab4b28d514ec10b06e1829ce6818ec06cd3aabd013ebcdc4bb1 has the first multisig ever 
