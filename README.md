@@ -1,5 +1,5 @@
 # Bitcoin-BlockSci
-This project consists in working with the BlockSci Python implementation tool to extract and analyze data from the Bitcoin blockchain.
+The goal of this project is to work with the BlockSci Python implementation tool to extract and analyze data from the Bitcoin blockchain.
 
 The Bitcoin blockchain currently occupies more than 300GB of data. Both its size and the structure of this data make it difficult to analyze. Additionally, the file structure that Bitcoin Core uses to store the blockchain is not optimized for analysis.
 
