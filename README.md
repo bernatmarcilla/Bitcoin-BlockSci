@@ -120,3 +120,6 @@ _Generate two plots showing the fees per byte payed by each transaction in block
 * 132.65440875227063
 
 ![Fees per Byte on block 450000](./plots/FeesPerByte450000.PNG "Fees per Byte on block 450000")
+
+## stack
+![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white) 
