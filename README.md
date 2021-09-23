@@ -123,3 +123,4 @@ _Generate two plots showing the fees per byte payed by each transaction in block
 
 ## stack
 ![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white) 
+![Jupyter](https://img.shields.io/badge/Jupyter-grey?style=for-the-badge&logo=Jupyter&logoColor=orange) 
